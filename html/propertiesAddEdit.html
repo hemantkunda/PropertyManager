@@ -1,0 +1,29 @@
+<div layout="column" style="width: 500px" ng-controller="PropertiesAddEditController">
+    <div layout="row">
+        <span>Date:</span>
+        <md-datepicker ng-model="date"></md-datepicker>
+    </div>
+    <div layout="row">
+        <span>Address:</span>
+        <input type="text" ng-model="address" required>
+    </div>
+    <div layout="row">
+        <span>List Price: $</span>
+        <input type="number" ng-model="listPrice" required>
+    </div>
+    <div layout="row">
+        <span>Purchase Price: $</span>
+        <input type="number" ng-model="purchasePrice" required>
+    </div>
+    <div layout="row">
+        <span>Interest Rate:</span>
+        <input type="number" ng-model="interestRate" required>
+        <span>%</span>
+    </div>
+    <div layout="row">
+        <span>Loan Term:</span>
+        <input type="number" ng-model="loanTerm" required>
+    </div>
+    <button ng-click="submit()">Submit</button>
+    <button ng-click="cancel()">Cancel</button>
+</div>

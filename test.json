@@ -1,0 +1,68 @@
+{
+    "properties": [
+        {
+            "id": "df45ddd2-adb8-11e5-bf7f-feff819cdc9f",
+            "address": "2258 Pinard Street",
+            "date": 1451928345000,
+            "listPrice": 500000,
+            "purchasePrice": 550000,
+            "interestRate": 3, 
+            "loanTerm": 50,
+            "entries": [
+                {
+                    "date": 1451655715000,
+                    "activity": "1",
+                    "cost": 500,
+                    "taxation": "none",
+                    "warranty": 4
+                },
+                {
+                    "date": 1451355345000,
+                    "activity": "2",
+                    "cost": 4000,
+                    "taxation": "year",
+                    "warranty": 100
+                },
+                {
+                    "date": 1651355715000,
+                    "activity": "3",
+                    "cost": 50000,
+                    "taxation": "life",
+                    "warranty": 1
+                }
+            ]
+        },
+        {
+            "id": "df45ddd2-adb8-11e5-bf9f-feff819cdc9f",
+            "address": "2261 Pinard Street",
+            "date": 1483955345000,
+            "listPrice": 700000,
+            "purchasePrice": 685000,
+            "interestRate": 11, 
+            "loanTerm": 40,
+            "entries": [
+                {
+                    "date": 1451655715000,
+                    "activity": "4",
+                    "cost": 500,
+                    "taxation": "none",
+                    "warranty": 4
+                },
+                {
+                    "date": 1451355345000,
+                    "activity": "5",
+                    "cost": 4000,
+                    "taxation": "year",
+                    "warranty": 100
+                },
+                {
+                    "date": 1651355715000,
+                    "activity": "6",
+                    "cost": 50000,
+                    "taxation": "life",
+                    "warranty": 1
+                }
+            ]
+        }
+    ]
+}

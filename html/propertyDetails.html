@@ -1,0 +1,27 @@
+<div ng-controller="PropertyDetailsTableController">
+    <table>
+        <tr>
+            <th colspan="5">{{property.address}}</th>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <th>Activity</th>
+            <th>Cost</th>
+            <th>Taxation</th>
+            <th>Warranty</th>
+        </tr>
+        <tr ng-repeat="entry in tableEntries" ng-show="!entry.hidden" ng-click="selectRow(entry)" ng-class="{selected: row === entry}">
+            <td>{{entry.date | date}}</td>
+            <td>{{entry.activity}}</td>
+            <td>{{entry.cost | currency}}</td>
+            <td>{{entry.taxation}}</td>
+            <td>{{entry.warranty}}</td>
+        </tr>
+    </table>
+    <button ng-click="addRow()">Add</button>
+    <button ng-click="editRow()">Edit</button>
+    <button ng-click="deleteRow()">Delete</button>
+    <button ng-click="showAllRows()">Show</button>
+    <button ng-click="hideSelectedRow()">Hide</button>
+    <button ng-click="return()">Back</button>
+</div>
